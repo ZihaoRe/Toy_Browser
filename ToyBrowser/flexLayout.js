@@ -13,7 +13,7 @@ function getStyle(element) {//对样式信息预处理
     }
     return element.style;
 }
-function layout (element) {
+function flexLayout (element) {
     if (!element.computedStyle) {
         return;
     }
@@ -332,4 +332,4 @@ function layout (element) {
     console.log(items)
 }
 
-module.exports = layout;
+module.exports = flexLayout;

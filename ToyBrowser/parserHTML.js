@@ -1,5 +1,5 @@
 const computeCSS = require("./computeCSS");
-const layout = require("./layout");
+const layout = require("./flexLayout");
 
 let currentToken = null;
 let currentAttribute = null;
